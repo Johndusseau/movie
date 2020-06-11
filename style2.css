@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-image: url("https://assets.simpleviewcms.com/simpleview/image/fetch/c_fill,g_center,h_610,q_75,w_814/https://lasvegas.simpleviewcrm.com/images/listings/original_movie-theater0-dc898cc80f1e549.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
+h1,
+h2 {
+  padding-left: 20%;
+  color: rgb(77, 100, 255);
+}
+#top {
+  margin-top: 100px;
+}
+.mainList {
+  color: rgba(90, 218, 188, 0.844);
+  font-family: sans-serif;
+  padding-left: 30%;
+}

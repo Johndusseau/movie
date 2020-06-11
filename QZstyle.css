@@ -1,0 +1,44 @@
+body {
+  background-image: url(https://www.straight.com/files/v3/styles/gs_feature/public/images/15/09/319866_best_multiplex_movie_theatre_2.jpg?itok=DVCiDH4X);
+  background-attachment: fixed;
+  color: #fff;
+  font-family: "Arial" sans-serif;
+  font-size: 14px;
+}
+
+#jumbotron {
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+p {
+  color: lightblue;
+}
+#container {
+  opacity: 0.7;
+  color: #fff;
+  width: 60%;
+  background-color: darkblue;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 25px;
+  border: solid white 5px;
+}
+#title {
+  color: darkblue;
+  font-family: cursive;
+}
+input[type="submit"] {
+  background: lightblue;
+  border: 0;
+  padding: 10px 15px;
+  font-family: cursive;
+}
+#results span {
+  color: lightblue;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  color: #fff;
+}

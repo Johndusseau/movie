@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
+.crystals {
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.crystal {
+  border: 1px solid green;
+  height: 200px;
+  width: 200px;
+}
+p {
+  margin-top: 50px;
+  background-color: seashell;
+  width: 10%;
+}
